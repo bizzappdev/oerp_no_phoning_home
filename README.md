@@ -1,5 +1,5 @@
-oerp_no_phoning_home
-====================
+Stop Phoning Home Feature from OpenERP
+======================================
 
 Remove Few Phoning home feature effect from Core OpenERP.
 ---------------------------------------------------------
