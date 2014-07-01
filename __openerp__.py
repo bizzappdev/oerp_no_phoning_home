@@ -11,9 +11,9 @@
     """,
     'author': 'Ruchir Shukla',
     'website': 'www.bizzappdev.com',
-    'depends': ["mail"],
+    'depends': ["mail",'web'],
     'init_xml': [],
-    'update_xml': [
+    'data': [
         "base_view.xml",
         "mail_data.xml",
     ],

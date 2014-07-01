@@ -10,9 +10,8 @@
             </ul>
         </t>
     </t>
-    <t t-extend="WebClient" >
-        <t t-jquery="td.announcement_bar" t-operation="replace">
+    <t t-extend="WebClient.announcement_bar" >
+        <t t-jquery="table.oe_webclient" t-operation="replace">
         </t>
     </t>
 </templates>
-</ul></t></ul></t>
