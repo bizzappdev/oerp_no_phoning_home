@@ -5,6 +5,11 @@ import logging
 
 _logger = logging.getLogger(__name__)
 
+from openerp.tools import config
+
+config['publisher_warranty_url'] = ''
+
+
 class publisher_warranty_contract(osv.osv):
     _inherit = 'publisher_warranty.contract'
 
